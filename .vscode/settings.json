@@ -1,0 +1,19 @@
+{
+    // C++ファイル固有の設定
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools", // Microsoft公式拡張機能を使用
+        "editor.formatOnSave": true,                     // 保存時に自動整形
+        "editor.tabSize": 2,                             // Googleスタイルはスペース2つが標準
+        "editor.insertSpaces": true                      // タブではなくスペースを使用
+    },
+    // C言語ファイル固有の設定（必要であれば）
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+
+    // ここが重要：フォーマッターのスタイルをGoogleに指定
+    "C_Cpp.clang_format_fallbackStyle": "Google"
+}
