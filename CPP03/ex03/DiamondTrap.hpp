@@ -30,9 +30,9 @@ class DiamondTrap : public ScavTrap, public FragTrap {
   ~DiamondTrap();
 
   using ScavTrap::attack; 
-  void whoAmI(void);
+  void whoAmI();
 
-  std::string getName(void) const;
+  std::string getName() const;
 };
 
 #endif
