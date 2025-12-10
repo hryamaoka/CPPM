@@ -61,7 +61,3 @@ void DiamondTrap::whoAmI() {
             << ClapTrap::_name << std::endl;
 }
 
-void DiamondTrap::attack(const std::string& target) {
-  // 課題要件: ScavTrapクラスのattack関数を使用する
-  ScavTrap::attack(target);
-}
