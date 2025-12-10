@@ -29,10 +29,10 @@ class DiamondTrap : public ScavTrap, public FragTrap {
   DiamondTrap& operator=(const DiamondTrap& other);
   ~DiamondTrap();
 
+  // 課題要件: ScavTrapクラスのattack関数を使用する
   using ScavTrap::attack; 
+  // 課題要件: 自分の名前(DiamondTrapの名前)とClapTrapの名前の両方を表示
   void whoAmI();
-
-  std::string getName() const;
 };
 
 #endif
